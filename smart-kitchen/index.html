@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Kistin</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body data-page="index.html">
+        <aside id="side"></aside>
+        <main>
+            <header class="top">
+                <div>
+                    <p class="eyebrow" id="date"></p>
+                    <h1>Good morning, Alex</h1>
+                    <p class="sub">Here's what needs attention in your kitchen today.</p>
+                </div>
+                <button class="btn" id="demoTop">📷 Run camera demo</button>
+            </header>
+            <section class="hero">
+                <div>
+                    <span class="tag">LIVE PROTOTYPE FLOW</span>
+                    <h2>Your pantry, without the admin</h2>
+                    <p>See how Kistin turns one pantry-door event into an accurate inventory update.</p>
+                    <button class="btn light" id="demo">Start the 20-second demo →</button>
+                </div>
+                <div class="sensor">
+                    <div class="cam">📷</div>
+                    <small id="status">Sensor ready</small>
+                </div>
+            </section>
+            <section class="stats">
+                <div class="card stat">
+                    <span>Items tracked</span>
+                    <b id="tracked">24</b>
+                    <span>Across fridge &amp; pantry</span>
+                </div>
+                <div class="card stat">
+                    <span>Use soon</span>
+                    <b>3</b>
+                    <span>Worth around €5.40</span>
+                </div>
+                <div class="card stat">
+                    <span>Waste avoided</span>
+                    <b>€21</b>
+                    <span>This month · prototype</span>
+                </div>
+            </section>
+            <section class="two">
+                <div class="card">
+                    <div class="row">
+                        <div>
+                            <p class="eyebrow">Priority</p>
+                            <h3>Use these next</h3>
+                        </div>
+                        <a href="alerts.html">View all →</a>
+                    </div>
+                    <div id="next"></div>
+                </div>
+                <div class="card">
+                    <div class="row">
+                        <p class="eyebrow">Suggested for tonight</p>
+                        <span class="pill grn">92% match</span>
+                    </div>
+                    <div class="plate" style="background:#d9ecd8;--f:#e9892f">
+                        <i></i>
+                    </div>
+                    <h3>Use-it-up pasta</h3>
+                    <p class="sub">Your spinach, chopped tomatoes and pasta before the spinach expires.</p>
+                    <br>
+                    <a href="recipes.html">See recipe →</a>
+                </div>
+            </section>
+            <div class="toast" id="toast"></div>
+            <script src="js/data.js"></script>
+            <script src="js/app.js"></script>
+    </body>
+</html>
